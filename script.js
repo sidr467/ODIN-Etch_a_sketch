@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
-    //const size = prompt("Enter the size :");
-    createEtchSketch(3);
+    const size = prompt("Enter the size :");
+    createEtchSketch(size);
 });
 
 function createEtchSketch(size) {
